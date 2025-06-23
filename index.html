@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css external -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Matematik||cuy</title>
   </head>
@@ -12,20 +13,49 @@
       <h1>NGITUNG YUK</h1>
 
       <p>
-        Halo teman-teman! Selamat datang di NGITUNG YUK web latihan soal matematika. Siapkan
-        otak dan semangatmu, waktunya hitung-hitungan seru! <br>silahkan pilih soal
+        Halo teman-teman! Selamat datang di NGITUNG YUK web latihan soal
+        matematika. Siapkan otak dan semangatmu, waktunya hitung-hitungan seru!
+        <br />silahkan pilih soal
       </p>
 
       <nav>
-        <a href="">segitiga</a>
-        <a href="">jajar genjang</a>
+        <a href="">Segitiga</a>
+        <a href="">Jajar Genjang</a>
       </nav>
     </header>
-
     <!--content-->
-    <main></main>
+    <main>
+      <!-- input segitiga -->
+      <h1>Soal Segitiga</h1>
+      <img src="/img/soal segitiga.png" alt="Foto soal segitiga" />
+
+      <form action=" " method="post">
+        <label for="alas">Masukkan Alas:</label>
+        <input type="text" id="alas" name="alas" required />
+
+        <label for="tinggi">Masukkan Tinggi:</label>
+        <input type="text" id="tinggi" name="tinggi" required />
+
+        <button class="btn" type="submit">Hitung Luas</button>
+      </form>
+      <!-- input jajar genjang -->
+      <h1>Soal Jajar Genjang</h1>
+      <img src="/img/soal_jajar_genjang.png" alt="Foto soal jajar genjang" />
+
+      <form action=" " method="post">
+        <label for="alas-jg">Masukkan Alas:</label>
+        <input type="text" id="alas-jg" name="alas-jg" required />
+
+        <label for="tinggi-jg">Masukkan Tinggi:</label>
+        <input type="text" id="tinggi-jg" name="tinggi-jg" required />
+
+        <button class="btn" type="submit">Hitung Luas</button>
+      </form>
+    </main>
 
     <!--footer-->
-    <footer></footer>
+    <footer>
+      <p>&copy; 2025 NGITUNG YUK. All rights reserved.</p>
+    </footer>
   </body>
 </html>
